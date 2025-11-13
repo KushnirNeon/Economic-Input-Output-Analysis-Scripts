@@ -4,7 +4,7 @@ This repository contains two Python scripts for input-output economic modeling.
 
 ---
 
-## 1. Full Production Output (`full_output.py`)
+## 1. Full Production Output
 
 Calculates total production needed to satisfy forecasted demand in a two-sector economy.
 
@@ -12,7 +12,7 @@ Calculates total production needed to satisfy forecasted demand in a two-sector 
 - Computes the technological matrix \(A\)
 - Calculates total production vector \(x\) using the Leontief model: \(x = (I - A)^{-1} \cdot c\)
 
-# Frobenius Number & Price Vector Analysis
+# 2. Frobenius Number & Price Vector Analysis
 
 This Python script performs input-output economic analysis for a three-sector economy using an input-output matrix.
 
